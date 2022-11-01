@@ -1,0 +1,37 @@
+{
+    "name": "bic-engine/properties",
+    "description": "Library to control setting and reading class fields",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bic\\Properties\\": "src"
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.28",
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bic\\Properties\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev",
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "platform-check": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
